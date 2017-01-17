@@ -1,0 +1,15 @@
+{
+  "name": "rj-router",
+  "version": "0.0.1",
+  "author": "rj",
+  "summary": "Modulo para provisionamento do Router Server",
+  "license": "MIT",
+  "source": "https://github.com/eduardodicarte/rj-router",
+  "project_page": "https://github.com/eduardodicarte/rj-router",
+  "issues_url": "https://github.com/eduardodicarte/rj-router/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
