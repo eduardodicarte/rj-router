@@ -43,8 +43,6 @@
 #
 # Copyright 2017 RJ Consultores.
 #
-class router($ip, $gw) {
-  package {'vim':
-    ensure => present
-  }
+class router($ip='192.168.15.15', $gw='192.168.0.1', $interface = 'enp0s8') {
+  include router::config::network
 }
